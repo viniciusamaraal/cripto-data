@@ -1,0 +1,20 @@
+https://coinmarketcap.com/currencies/bitcoin/#charts
+Aba Historical Data
+
+Criar uma planilha (xt) com as colunas de entrada (separador decimal é o ponto) com as datas em ordem crescente
+Criar uma segunda planilha (yt) com a saída esperada para o próximo dia (d1).
+Criar uma segunda planilha (yt2) com a saída esperada para o próximo dia (d2).
+	- Vamos supor que a entrada (xt) está com dados para os dias: 1, 2, 3, 4, 5;
+	- A saída (yt) deverá estar com dados para os dias 2, 3, 4, 5.
+	- Ou seja:
+		- baseado em todas as colunas do dia 1, eu quero descobrir o valor de fechamento para o dia 2
+		- baseado em todas as colunas do dia 2, eu quero descobrir o valor de fechamento para o dia 3
+		- e assim sucessivamente
+	
+	- A saída (yt2) deverá estar com dados para os dias 3, 4, 5. 
+	- Ou seja:
+		- baseado em todas as colunas do dia 1, eu quero descobrir o valor de fechamento para o dia 3
+		- baseado em todas as colunas do dia 2, eu quero descobrir o valor de fechamento para o dia 4
+		- e assim sucessivamente...
+		
+O algoritmo do Alisson se chama eNFN_001N_2017_12_28. Para executar, para colocar os dados na mesma pasta.
